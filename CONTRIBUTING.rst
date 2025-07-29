@@ -70,7 +70,7 @@ First time setup
 
 - Install Werkzeug in editable mode with development dependencies::
 
-        pip install -e ".[dev]"
+        pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' -e ".[dev]"
 
 
 Start coding

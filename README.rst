@@ -43,7 +43,7 @@ Install and update using `pip`_:
 
 .. code-block:: text
 
-    pip install -U Werkzeug
+    pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' -U Werkzeug
 
 
 A Simple Example

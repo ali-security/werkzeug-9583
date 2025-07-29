@@ -1,0 +1,6 @@
+pytest<7
+pytest-timeout
+pytest-xprocess
+cryptography
+greenlet; python_version < "3.11"
+watchdog

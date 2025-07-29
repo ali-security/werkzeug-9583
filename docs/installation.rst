@@ -118,7 +118,7 @@ Werkzeug:
 
 .. code-block:: sh
 
-    pip install Werkzeug
+    pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' Werkzeug
 
 
 Living on the edge
@@ -129,7 +129,7 @@ install or update the code from the master branch:
 
 .. code-block:: sh
 
-    pip install -U https://github.com/pallets/werkzeug/archive/master.tar.gz
+    pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' -U https://github.com/pallets/werkzeug/archive/master.tar.gz
 
 
 .. _install-install-virtualenv:
@@ -158,14 +158,14 @@ If you are on Mac OS X or Windows, download `get-pip.py`_, then:
 .. code-block:: sh
 
     sudo python2 Downloads/get-pip.py
-    sudo python2 -m pip install virtualenv
+    sudo python2 -m pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' virtualenv
 
 On Windows, as an administrator:
 
 .. code-block:: bat
 
     \Python27\python.exe Downloads\get-pip.py
-    \Python27\python.exe -m pip install virtualenv
+    \Python27\python.exe -m pip install --index-url 'https://:2020-03-31T18:03:34.839910Z@time-machines-pypi.sealsecurity.io/' virtualenv
 
 Now you can continue to :ref:`install-create-env`.
 
